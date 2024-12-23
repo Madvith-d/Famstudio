@@ -1,0 +1,65 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+   
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+font-family: "Poppins", serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+
+    display: flex;
+    margin: 15px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1{
+    font-size: 2.5vw;
+}
+.navpart2{
+    
+    display: flex;
+    gap: 60px;
+    font-size: 1.25vw;
+}
+.navlinks{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+}
+.navsearch{
+    display: flex;
+    align-items: center;
+}
+.navsearch input{
+    padding: 7px 14px;
+    border-radius: 50px;
+    background-color: #E9F2ED;
+    border: none;
+}
+.navbutton {
+   width: 20%;
+   padding: 5px;
+}
+.navbutton button{
+    padding: 7px 14px;
+    white-space: nowrap;
+    border-radius: 40px;
+    background-color: #022F12;
+    color: white;
+    font-weight: 500;
+    border: none;
+
+}
